@@ -1,0 +1,270 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
+
+
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+  position: relative;
+  top: -10px;
+  min-width: 500px;
+  background: rgba( 255, 255, 255, 0.8 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur(18px );
+  -webkit-backdrop-filter: blur( 18px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  color: black;
+}
+.centered{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.stc h1{
+  text-align: center;
+  vertical-align: middle;
+  position: relative;
+  top: -3px;
+  width: 1300px;
+  background: rgba(104, 101, 101, 0.8);
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 30px );
+  -webkit-backdrop-filter: blur( 18px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  color: rgb(22, 2, 49);
+}
+
+.cry h1{
+  text-align: center;
+  vertical-align: middle;
+  position: relative;
+  top: -3px;
+  width: 1300px;
+  background: rgba(104, 101, 101, 0.8);
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 30px );
+  -webkit-backdrop-filter: blur( 18px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  color: rgb(22, 2, 49);
+}
+.fnm h1{ 
+    text-align: center;
+    vertical-align: middle;
+    position: relative;
+    top: -3px;
+    width: 770px;
+    background: rgba(104, 101, 101, 0.8);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 30px );
+    -webkit-backdrop-filter: blur( 18px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    color: rgb(22, 2, 49);
+}
+
+.mvc h1 {
+  text-align: center;
+  vertical-align: middle;
+  position: relative;
+  top: -3px;
+  width:400px;
+  background: rgba(104, 101, 101, 0.8);
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 30px );
+  -webkit-backdrop-filter: blur( 18px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  color: rgb(22, 2, 49);
+}
+.head-text{
+  position: relative;
+  left: 20px;
+}
+nav{
+  position:static;
+  z-index:4;
+  background: var(--glassy);
+  box-shadow: var(--shadow); 
+  backdrop-filter: blur( 2.5px )  saturate(136%);
+  -webkit-backdrop-filter: blur( 2.5px );
+  border-radius: 2px;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+  vertical-align: center;
+  bottom: -20px;
+  padding: -2px 10%;
+}
+
+.navlist li{
+  display: inline-block;
+  top: -10px;
+  padding: 10px;
+}
+
+.navlist h1{
+  background: none;
+}
+
+body {
+  max-width: 1320px;
+  font-size: 16px;
+  background: url('hit.svg.svg');
+}
+
+.crypto{
+  position: relative;
+  left: -1px;
+}
+
+.Stock-Market{
+  min-height: 90vh;
+}
+
+.Stock-Market .tradingview-widget-container{
+  position: relative;
+  top:50px;
+}
+
+.tradingview-widget-container{
+  position: relative;
+}
+
+.clone1{
+  display: flex;
+  justify-content: space-between;
+  min-height: 110vh;
+}
+.clone1 section{
+  display:inline-block;
+  padding-left: 0px;
+}
+
+#Financial-Market {
+  position: relative;
+  left: -20px;
+}
+
+#Financial-Market .tradingview-widget-container__widget{
+  position: relative;
+  left: 10;
+}
+
+
+#fiat-conversion{
+  position:static;
+  background-image: url(images/micheile-dot-com-ZVprbBmT8QA-unsplash.jpg);
+  background-size: cover;    
+  background-color: rgba(255, 255, 255, 1.5);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+
+
+
+
+
+
+.currency-converter {
+padding: 0px 50px 0px 50px; 
+border-radius: 20px;
+width: 600px;
+min-height: 100vh;
+background: rgba(242, 215, 217, 0.3);
+border-radius: 16px 0px 0px 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(6.7px);
+-webkit-backdrop-filter: blur(6.7px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+display: flex;
+flex-direction: column;
+}
+
+.tradingview-widget-copyright{
+  display: none;
+}
+
+.tradingview-widget-container{
+  position: relative;
+  top:20px;
+  left: 20px;
+}
+
+.tradeview{
+  min-height: 100vh;
+  align-items: center;
+}
+.tradingview-widget-container__widget{
+  margin-top: -10px;
+}
+
+.theheader{
+  padding-top: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  padding-bottom: 15px;
+  margin: 0px 5px 0px 5px;
+  color:rgb(3, 136, 25);
+}
+
+
+
+
+
+a, li {
+  color: black;
+  size: 13pt;
+  font-weight: bold;
+  text-decoration: none;
+  list-style: none;
+}
+
+:root{
+
+    /*      Theme colors        */
+    --text-gray: #3f4954;
+    --text-light: #686666da;
+    --bg-color: #0f0f0f;
+    --white: #ffffff;
+    --midnight: #104f55;
+    --fall: #76237a67;
+    --rail: #a11ffa67;
+    --reef: #1287ff66;
+    --beef: #1faba2;
+    --redy: #ff1314;
+
+    /*glassphormism */
+    --glassy: rgba( 255, 255, 255, 0.8);
+    --shadow: 0 8px 32px 0 rgba(250, 251, 252, 0.01);
+    --shadow1: 10px 20px 25px rgba(0,0,0,0.2);
+    --glassy1: rgba( 255, 255, 255, 0.6);
+    --glassy2: rgba( 255, 255, 255, 0.2);
+
+
+    /* gradient color   */
+    --sky: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+    --sunset: linear-gradient(-25deg, #231557 0%, #44107A 29%, #FF1361 67%, #FFF800 100%);
+    --shades: linear-gradient(to bottom,#1D1D1B 90%, #76237a67 , #1287ff66, #a11ffa67);
+    --ray: linear-gradient(15deg, #20afa2 45%, #012ff87f 80%, #9ebfba92 100%);
+    --hay: linear-gradient(30deg, #9213a2 10%, #24abf7 , #11ccb132 90% 100%);
+    --bay: linear-gradient(150deg, #ba331412 10%, #ff1314 80%, #326823 90%, #3141 100%);
+    --shay: linear-gradient(15deg, #736aa2 45%, #1111ff67 50%, #2839ba46 100%);
+    --surf: linear-gradient(16deg, #ab526178 10%, #3772ba89 90%, #32af3ff3 70%, #12ffff25 30%);
+    --may: linear-gradient(84deg, #a44152 16%, #1245bbab 60%, #144aab56 90%, #a51278ba 100%) ;
+    --bluey: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 0%, rgba(10,64,83,1) 49%, rgba(4,151,181,1) 100%);
+    --blacky: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 18%, rgba(3,13,19,0.9920343137254902) 53%, rgba(11,77,101,1) 77%, rgba(4,151,181,1) 100%);
+
+}
